@@ -1,0 +1,7 @@
+C:/Users/b1601/Desktop/dsi/STM32CubeH7/Projects/STM32H747I-DISCO/Examples/JPEG/JPEG_DecodingUsingFs_DMA/CM7/Src/decode_dma.c:83:10:JPEG_Decode_DMA	3
+C:/Users/b1601/Desktop/dsi/STM32CubeH7/Projects/STM32H747I-DISCO/Examples/JPEG/JPEG_DecodingUsingFs_DMA/CM7/Src/decode_dma.c:113:10:JPEG_InputHandler	7
+C:/Users/b1601/Desktop/dsi/STM32CubeH7/Projects/STM32H747I-DISCO/Examples/JPEG/JPEG_DecodingUsingFs_DMA/CM7/Src/decode_dma.c:156:6:HAL_JPEG_InfoReadyCallback	1
+C:/Users/b1601/Desktop/dsi/STM32CubeH7/Projects/STM32H747I-DISCO/Examples/JPEG/JPEG_DecodingUsingFs_DMA/CM7/Src/decode_dma.c:166:6:HAL_JPEG_GetDataCallback	4
+C:/Users/b1601/Desktop/dsi/STM32CubeH7/Projects/STM32H747I-DISCO/Examples/JPEG/JPEG_DecodingUsingFs_DMA/CM7/Src/decode_dma.c:202:6:HAL_JPEG_DataReadyCallback	1
+C:/Users/b1601/Desktop/dsi/STM32CubeH7/Projects/STM32H747I-DISCO/Examples/JPEG/JPEG_DecodingUsingFs_DMA/CM7/Src/decode_dma.c:215:6:HAL_JPEG_ErrorCallback	1
+C:/Users/b1601/Desktop/dsi/STM32CubeH7/Projects/STM32H747I-DISCO/Examples/JPEG/JPEG_DecodingUsingFs_DMA/CM7/Src/decode_dma.c:225:6:HAL_JPEG_DecodeCpltCallback	1

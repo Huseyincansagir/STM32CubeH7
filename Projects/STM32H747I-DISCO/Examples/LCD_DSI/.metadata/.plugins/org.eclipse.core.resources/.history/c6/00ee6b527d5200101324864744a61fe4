@@ -1,0 +1,45 @@
+/*
+ * slide.c
+ *
+ *  Created on: Jun 26, 2025
+ *      Author: Huseyincansagir
+ *
+ */
+//Bu fonksiyonda bir görselin kendi çerçevesi için kayması yapılacaktır.
+void SwapImageParts(uint32_t *pSrc, uint32_t *pDst, uint16_t xsize, uint16_t ysize)
+{
+    // Her parçanın genişliği: xsize / 10
+    uint16_t part_width = xsize / 10; // Örneğin, 320 / 10 = 32 piksel
+    uint16_t part_height = ysize;     // Yükseklik değişmez (240 piksel)
+
+    // Geçici tampon için bellek ayır (1 parça boyutunda)
+    uint32_t *temp_buffer = (uint32_t *)malloc(part_width * part_height * sizeof(uint32_t));
+    if (temp_buffer == NULL)
+    {
+        Error_Handler(); // Bellek tahsisi başarısız
+        return;
+    }
+
+    // 1. parçanın başlangıç adresi: pSrc
+    uint32_t *part1 = pSrc;
+    // 10. parçanın başlangıç adresi: pSrc + (9 * part_width)
+    uint32_t *part10 = pSrc + (9 * part_width);
+
+    // Adım 1: 1. parçayı geçici tampona kopyala
+    CopyBuffer(part1, temp_buffer, 0, 0, part_width, part_height);
+
+    // Adım 2: 10. parçayı 1. parçanın yerine kopyala
+    CopyBuffer(part10, pDst, 0, 0, part_width, part_height);
+
+    // Adım 3: Geçici tampondaki 1. parçayı 10. parçanın yerine kopyala
+    CopyBuffer(temp_buffer, pDst + (9 * part_width), 9 * part_width, 0, part_width, part_height);
+
+    // Diğer parçaları yerinde kopyala (2. parça ile 9. parça arası)
+    for (uint16_t i = 1; i < 9; i++)
+    {
+        CopyBuffer(pSrc + (i * part_width), pDst + (i * part_width), i * part_width, 0, part_width, part_height);
+    }
+
+    // Geçici tamponu serbest bırak
+    free(temp_buffer);
+}

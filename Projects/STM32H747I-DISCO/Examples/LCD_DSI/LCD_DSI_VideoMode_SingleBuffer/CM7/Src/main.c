@@ -23,6 +23,7 @@
 #include "main.h"
 #include "image_320x240_argb8888.h"
 #include "life_augmented_argb8888.h"
+#include "savas.h"
 #include <string.h>
 #include <stdio.h>
 
@@ -44,10 +45,12 @@ static DMA2D_HandleTypeDef           hdma2d;
 static uint32_t ImageIndex = 0;
 static uint32_t LCD_X_Size = 0;
 
-static const uint32_t * Images[] = 
+static const uint32_t * Images[] =
 {
   image_320x240_argb8888,
-  life_augmented_argb8888,  
+  life_augmented_argb8888,
+  savas,
+
 };
 
 /* Private function prototypes -----------------------------------------------*/
@@ -122,22 +125,34 @@ int main(void)
   /* Get the LCD Width */
   BSP_LCD_GetXSize(0, &LCD_X_Size);
     
-  
+  UTIL_LCD_Clear(UTIL_LCD_COLOR_WHITE);
   /* Display example brief   */
-  LCD_BriefDisplay();
-  
+ // LCD_BriefDisplay();
+
   /* Infinite loop */
+
+
   while (1)
   {
-    CopyBuffer((uint32_t *)Images[ImageIndex ++], (uint32_t *)LCD_FRAME_BUFFER, (LCD_X_Size - 320)/2, 160, 320, 240);
-    
+
+
+
+     CopyBuffer((uint32_t *)Images[1], (uint32_t *)LCD_FRAME_BUFFER,0, 120, 320, 240);
+
+     CopyBuffer((uint32_t *)Images[0], (uint32_t *)LCD_FRAME_BUFFER,320, 120, 320, 240);
+
+
+
+
     if(ImageIndex >= 2)
     {
       ImageIndex = 0;
     }
-    
+
     /* Wait some time before switching to next stage */
-    HAL_Delay(2000); 
+    HAL_Delay(2000);
+
+
   }
 }
 
@@ -305,6 +320,8 @@ static void CopyBuffer(uint32_t *pSrc, uint32_t *pDst, uint16_t x, uint16_t y, u
 * @param  None
 * @retval None
 */
+
+
 static void CPU_CACHE_Enable(void)
 {
   /* Enable I-Cache */

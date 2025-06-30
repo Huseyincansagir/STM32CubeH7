@@ -1,0 +1,146 @@
+10:09:39 **** Incremental Build of configuration Debug for project savas_7_CM7 ****
+make -j8 all 
+arm-none-eabi-gcc "../Drivers/Components/is42s32800j/is42s32800j.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/Components/is42s32800j/is42s32800j.d" -MT"Drivers/Components/is42s32800j/is42s32800j.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/Components/is42s32800j/is42s32800j.o"
+arm-none-eabi-gcc "../Drivers/BSP/stm32h747i_discovery.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/stm32h747i_discovery.d" -MT"Drivers/BSP/stm32h747i_discovery.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/stm32h747i_discovery.o"
+arm-none-eabi-gcc "../Drivers/BSP/stm32h747i_discovery_bus.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/stm32h747i_discovery_bus.d" -MT"Drivers/BSP/stm32h747i_discovery_bus.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/stm32h747i_discovery_bus.o"
+arm-none-eabi-gcc "../Drivers/BSP/stm32h747i_discovery_lcd.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/stm32h747i_discovery_lcd.d" -MT"Drivers/BSP/stm32h747i_discovery_lcd.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/stm32h747i_discovery_lcd.o"
+arm-none-eabi-gcc "../Drivers/BSP/stm32h747i_discovery_sdram.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/stm32h747i_discovery_sdram.d" -MT"Drivers/BSP/stm32h747i_discovery_sdram.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/stm32h747i_discovery_sdram.o"
+arm-none-eabi-gcc "../Drivers/BSP/stm32h747i_discovery_ts.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/stm32h747i_discovery_ts.d" -MT"Drivers/BSP/stm32h747i_discovery_ts.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/stm32h747i_discovery_ts.o"
+arm-none-eabi-gcc "../Drivers/stm32_lcd.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/stm32_lcd.d" -MT"Drivers/stm32_lcd.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/stm32_lcd.o"
+arm-none-eabi-gcc -mcpu=cortex-m7 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32h747bitx.d" -MT"Core/Startup/startup_stm32h747bitx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32h747bitx.o" "../Core/Startup/startup_stm32h747bitx.s"
+In file included from ../Drivers/Components/is42s32800j/is42s32800j.c:22:
+../Drivers/Components/is42s32800j/is42s32800j.h:31:10: fatal error: is42s32800j_conf.h: No such file or directory
+   31 | #include "is42s32800j_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/Components/is42s32800j/subdir.mk:19: Drivers/Components/is42s32800j/is42s32800j.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../Drivers/stm32_lcd.c:71:
+../Drivers/stm32_lcd.h:29:10: fatal error: ../Fonts/fonts.h: No such file or directory
+   29 | #include "../Fonts/fonts.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/subdir.mk:19: Drivers/stm32_lcd.o] Error 1
+In file included from ../Drivers/BSP/stm32h747i_discovery_sdram.h:31,
+                 from ../Drivers/BSP/stm32h747i_discovery_sdram.c:57:
+../Drivers/BSP/../Components/is42s32800j/is42s32800j.h:31:10: fatal error: is42s32800j_conf.h: No such file or directory
+   31 | #include "is42s32800j_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../Drivers/BSP/stm32h747i_discovery_ts.c:51:
+../Drivers/BSP/stm32h747i_discovery_ts.h:32:10: fatal error: ../Components/Common/ts.h: No such file or directory
+   32 | #include "../Components/Common/ts.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../Drivers/BSP/stm32h747i_discovery_lcd.c:95:
+../Drivers/BSP/stm32h747i_discovery_lcd.h:31:10: fatal error: lcd.h: No such file or directory
+   31 | #include "lcd.h"
+      |          ^~~~~~~
+compilation terminated.
+make: *** [Drivers/BSP/subdir.mk:31: Drivers/BSP/stm32h747i_discovery_ts.o] Error 1
+make: *** [Drivers/BSP/subdir.mk:31: Drivers/BSP/stm32h747i_discovery_sdram.o] Error 1
+make: *** [Drivers/BSP/subdir.mk:31: Drivers/BSP/stm32h747i_discovery_lcd.o] Error 1
+In file included from ../Drivers/BSP/stm32h747i_discovery.c:24:
+../Drivers/BSP/stm32h747i_discovery.h:92:26: error: 'UART_STOPBITS_1' undeclared here (not in a function)
+   92 |   COM_STOPBITS_1     =   UART_STOPBITS_1,
+      |                          ^~~~~~~~~~~~~~~
+../Drivers/BSP/stm32h747i_discovery.h:93:26: error: 'UART_STOPBITS_2' undeclared here (not in a function); did you mean 'COM_STOPBITS_1'?
+   93 |   COM_STOPBITS_2     =   UART_STOPBITS_2,
+      |                          ^~~~~~~~~~~~~~~
+      |                          COM_STOPBITS_1
+../Drivers/BSP/stm32h747i_discovery.h:98:26: error: 'UART_PARITY_NONE' undeclared here (not in a function)
+   98 |   COM_PARITY_NONE     =  UART_PARITY_NONE,
+      |                          ^~~~~~~~~~~~~~~~
+../Drivers/BSP/stm32h747i_discovery.h:99:26: error: 'UART_PARITY_EVEN' undeclared here (not in a function)
+   99 |   COM_PARITY_EVEN     =  UART_PARITY_EVEN,
+      |                          ^~~~~~~~~~~~~~~~
+../Drivers/BSP/stm32h747i_discovery.h:100:26: error: 'UART_PARITY_ODD' undeclared here (not in a function)
+  100 |   COM_PARITY_ODD      =  UART_PARITY_ODD,
+      |                          ^~~~~~~~~~~~~~~
+../Drivers/BSP/stm32h747i_discovery.h:105:28: error: 'UART_HWCONTROL_NONE' undeclared here (not in a function)
+  105 |   COM_HWCONTROL_NONE    =  UART_HWCONTROL_NONE,
+      |                            ^~~~~~~~~~~~~~~~~~~
+../Drivers/BSP/stm32h747i_discovery.h:106:28: error: 'UART_HWCONTROL_RTS' undeclared here (not in a function)
+  106 |   COM_HWCONTROL_RTS     =  UART_HWCONTROL_RTS,
+      |                            ^~~~~~~~~~~~~~~~~~
+../Drivers/BSP/stm32h747i_discovery.h:107:28: error: 'UART_HWCONTROL_CTS' undeclared here (not in a function); did you mean 'COM_HWCONTROL_RTS'?
+  107 |   COM_HWCONTROL_CTS     =  UART_HWCONTROL_CTS,
+      |                            ^~~~~~~~~~~~~~~~~~
+      |                            COM_HWCONTROL_RTS
+../Drivers/BSP/stm32h747i_discovery.h:108:28: error: 'UART_HWCONTROL_RTS_CTS' undeclared here (not in a function); did you mean 'COM_HWCONTROL_CTS'?
+  108 |   COM_HWCONTROL_RTS_CTS =  UART_HWCONTROL_RTS_CTS,
+      |                            ^~~~~~~~~~~~~~~~~~~~~~
+      |                            COM_HWCONTROL_CTS
+../Drivers/BSP/stm32h747i_discovery.h:113:23: error: 'UART_WORDLENGTH_7B' undeclared here (not in a function)
+  113 |   COM_WORDLENGTH_7B = UART_WORDLENGTH_7B,
+      |                       ^~~~~~~~~~~~~~~~~~
+../Drivers/BSP/stm32h747i_discovery.h:114:23: error: 'UART_WORDLENGTH_8B' undeclared here (not in a function); did you mean 'COM_WORDLENGTH_7B'?
+  114 |   COM_WORDLENGTH_8B = UART_WORDLENGTH_8B,
+      |                       ^~~~~~~~~~~~~~~~~~
+      |                       COM_WORDLENGTH_7B
+../Drivers/BSP/stm32h747i_discovery.h:115:23: error: 'UART_WORDLENGTH_9B' undeclared here (not in a function); did you mean 'COM_WORDLENGTH_8B'?
+  115 |   COM_WORDLENGTH_9B = UART_WORDLENGTH_9B,
+      |                       ^~~~~~~~~~~~~~~~~~
+      |                       COM_WORDLENGTH_8B
+../Drivers/BSP/stm32h747i_discovery.h:309:8: error: unknown type name 'UART_HandleTypeDef'
+  309 | extern UART_HandleTypeDef hcom_uart[];
+      |        ^~~~~~~~~~~~~~~~~~
+../Drivers/BSP/stm32h747i_discovery.h:345:34: error: unknown type name 'UART_HandleTypeDef'; did you mean 'LTDC_HandleTypeDef'?
+  345 | HAL_StatusTypeDef MX_USART1_Init(UART_HandleTypeDef *huart, MX_UART_InitTypeDef *COM_Init);
+      |                                  ^~~~~~~~~~~~~~~~~~
+      |                                  LTDC_HandleTypeDef
+../Drivers/BSP/stm32h747i_discovery.c:51:28: error: unknown type name 'UART_HandleTypeDef'; did you mean 'LTDC_HandleTypeDef'?
+   51 | static void USART1_MspInit(UART_HandleTypeDef *huart);
+      |                            ^~~~~~~~~~~~~~~~~~
+      |                            LTDC_HandleTypeDef
+../Drivers/BSP/stm32h747i_discovery.c:52:30: error: unknown type name 'UART_HandleTypeDef'; did you mean 'LTDC_HandleTypeDef'?
+   52 | static void USART1_MspDeInit(UART_HandleTypeDef *huart);
+      |                              ^~~~~~~~~~~~~~~~~~
+      |                              LTDC_HandleTypeDef
+../Drivers/BSP/stm32h747i_discovery.c:68:1: error: unknown type name 'UART_HandleTypeDef'; did you mean 'LTDC_HandleTypeDef'?
+   68 | UART_HandleTypeDef hcom_uart[COMn];
+      | ^~~~~~~~~~~~~~~~~~
+      | LTDC_HandleTypeDef
+../Drivers/BSP/stm32h747i_discovery.c: In function 'BSP_COM_Init':
+../Drivers/BSP/stm32h747i_discovery.c:410:5: warning: implicit declaration of function 'USART1_MspInit'; did you mean 'HAL_MspInit'? [-Wimplicit-function-declaration]
+  410 |     USART1_MspInit(&hcom_uart[COM]);
+      |     ^~~~~~~~~~~~~~
+      |     HAL_MspInit
+../Drivers/BSP/stm32h747i_discovery.c:421:8: warning: implicit declaration of function 'MX_USART1_Init' [-Wimplicit-function-declaration]
+  421 |     if(MX_USART1_Init(&hcom_uart[COM], COM_Init) != HAL_OK)
+      |        ^~~~~~~~~~~~~~
+../Drivers/BSP/stm32h747i_discovery.c: In function 'BSP_COM_DeInit':
+../Drivers/BSP/stm32h747i_discovery.c:447:19: error: request for member 'Instance' in something not a structure or union
+  447 |     hcom_uart[COM].Instance = COM_USART[COM];
+      |                   ^
+../Drivers/BSP/stm32h747i_discovery.c:450:5: warning: implicit declaration of function 'USART1_MspDeInit'; did you mean 'HAL_MspDeInit'? [-Wimplicit-function-declaration]
+  450 |     USART1_MspDeInit(&hcom_uart[COM]);
+      |     ^~~~~~~~~~~~~~~~
+      |     HAL_MspDeInit
+../Drivers/BSP/stm32h747i_discovery.c:453:8: warning: implicit declaration of function 'HAL_UART_DeInit'; did you mean 'HAL_PWR_DeInit'? [-Wimplicit-function-declaration]
+  453 |     if(HAL_UART_DeInit(&hcom_uart[COM]) != HAL_OK)
+      |        ^~~~~~~~~~~~~~~
+      |        HAL_PWR_DeInit
+../Drivers/BSP/stm32h747i_discovery.c: At top level:
+../Drivers/BSP/stm32h747i_discovery.c:469:41: error: unknown type name 'UART_HandleTypeDef'; did you mean 'LTDC_HandleTypeDef'?
+  469 | __weak HAL_StatusTypeDef MX_USART1_Init(UART_HandleTypeDef *huart, MX_UART_InitTypeDef *COM_Init)
+      |                                         ^~~~~~~~~~~~~~~~~~
+      |                                         LTDC_HandleTypeDef
+../Drivers/BSP/stm32h747i_discovery.c: In function '__io_putchar':
+../Drivers/BSP/stm32h747i_discovery.c:581:9: warning: implicit declaration of function 'HAL_UART_Transmit' [-Wimplicit-function-declaration]
+  581 |   (void)HAL_UART_Transmit (&hcom_uart [COM_ActiveLogPort], (uint8_t *) &ch, 1, COM_POLL_TIMEOUT);
+      |         ^~~~~~~~~~~~~~~~~
+../Drivers/BSP/stm32h747i_discovery.c: At top level:
+../Drivers/BSP/stm32h747i_discovery.c:866:28: error: unknown type name 'UART_HandleTypeDef'; did you mean 'LTDC_HandleTypeDef'?
+  866 | static void USART1_MspInit(UART_HandleTypeDef *huart)
+      |                            ^~~~~~~~~~~~~~~~~~
+      |                            LTDC_HandleTypeDef
+../Drivers/BSP/stm32h747i_discovery.c:900:30: error: unknown type name 'UART_HandleTypeDef'; did you mean 'LTDC_HandleTypeDef'?
+  900 | static void USART1_MspDeInit(UART_HandleTypeDef *huart)
+      |                              ^~~~~~~~~~~~~~~~~~
+      |                              LTDC_HandleTypeDef
+make: *** [Drivers/BSP/subdir.mk:31: Drivers/BSP/stm32h747i_discovery.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+10:09:42 Build Failed. 33 errors, 5 warnings. (took 2s.680ms)
+

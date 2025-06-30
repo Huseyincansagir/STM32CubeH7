@@ -1,0 +1,63 @@
+08:39:32 **** Incremental Build of configuration Debug for project Savas_Gul_CM7 ****
+make -j8 all 
+arm-none-eabi-gcc "C:/Users/b1601/Desktop/dsi/STM32CubeH7/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery.d" -MT"Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery.o"
+arm-none-eabi-gcc "../Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_audio.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_audio.d" -MT"Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_audio.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_audio.o"
+arm-none-eabi-gcc "C:/Users/b1601/Desktop/dsi/STM32CubeH7/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_bus.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_bus.d" -MT"Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_bus.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_bus.o"
+arm-none-eabi-gcc "../Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_camera.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_camera.d" -MT"Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_camera.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_camera.o"
+arm-none-eabi-gcc "C:/Users/b1601/Desktop/dsi/STM32CubeH7/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_lcd.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_lcd.d" -MT"Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_lcd.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_lcd.o"
+arm-none-eabi-gcc "../Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_qspi.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_qspi.d" -MT"Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_qspi.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_qspi.o"
+arm-none-eabi-gcc "../Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_sd.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_sd.d" -MT"Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_sd.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_sd.o"
+arm-none-eabi-gcc "C:/Users/b1601/Desktop/dsi/STM32CubeH7/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_sdram.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_sdram.d" -MT"Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_sdram.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_sdram.o"
+In file included from ../Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_audio.c:133:
+../Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_audio.h:29:10: fatal error: stm32h747i_discovery_conf.h: No such file or directory
+   29 | #include "stm32h747i_discovery_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_camera.c:131:
+../Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_camera.h:30:10: fatal error: stm32h747i_discovery_conf.h: No such file or directory
+   30 | #include "stm32h747i_discovery_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_qspi.c:61:
+../Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_qspi.h:28:10: fatal error: stm32h747i_discovery_conf.h: No such file or directory
+   28 | #include "stm32h747i_discovery_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from C:/Users/b1601/Desktop/dsi/STM32CubeH7/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_bus.c:22:
+C:/Users/b1601/Desktop/dsi/STM32CubeH7/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_bus.h:29:10: fatal error: stm32h747i_discovery_conf.h: No such file or directory
+   29 | #include "stm32h747i_discovery_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from C:/Users/b1601/Desktop/dsi/STM32CubeH7/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_sdram.c:57:
+C:/Users/b1601/Desktop/dsi/STM32CubeH7/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_sdram.h:29:10: fatal error: stm32h747i_discovery_conf.h: No such file or directory
+   29 | #include "stm32h747i_discovery_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_sd.c:67:
+../Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_sd.h:29:10: fatal error: stm32h747i_discovery_conf.h: No such file or directory
+   29 | #include "stm32h747i_discovery_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+compilation terminated.
+make: *** [Drivers/BSP/STM32H747I_DISCO/subdir.mk:45: Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_audio.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Drivers/BSP/STM32H747I_DISCO/subdir.mk:45: Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_camera.o] Error 1
+make: *** [Drivers/BSP/STM32H747I_DISCO/subdir.mk:45: Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_qspi.o] Error 1
+make: *** [Drivers/BSP/STM32H747I_DISCO/subdir.mk:47: Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_bus.o] Error 1
+In file included from C:/Users/b1601/Desktop/dsi/STM32CubeH7/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery.c:24:
+C:/Users/b1601/Desktop/dsi/STM32CubeH7/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery.h:32:10: fatal error: stm32h747i_discovery_conf.h: No such file or directory
+   32 | #include "stm32h747i_discovery_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from C:/Users/b1601/Desktop/dsi/STM32CubeH7/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_lcd.c:95:
+C:/Users/b1601/Desktop/dsi/STM32CubeH7/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_lcd.h:29:10: fatal error: stm32h747i_discovery_conf.h: No such file or directory
+   29 | #include "stm32h747i_discovery_conf.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Drivers/BSP/STM32H747I_DISCO/subdir.mk:51: Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_sdram.o] Error 1
+make: *** [Drivers/BSP/STM32H747I_DISCO/subdir.mk:45: Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_sd.o] Error 1
+make: *** [Drivers/BSP/STM32H747I_DISCO/subdir.mk:43: Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery.o] Error 1
+make: *** [Drivers/BSP/STM32H747I_DISCO/subdir.mk:49: Drivers/BSP/STM32H747I_DISCO/stm32h747i_discovery_lcd.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+08:39:33 Build Failed. 17 errors, 0 warnings. (took 1s.418ms)
+

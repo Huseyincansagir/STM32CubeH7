@@ -1,0 +1,108 @@
+14:34:36 **** Incremental Build of configuration Debug for project Savas_S7_CM7 ****
+make -j8 all 
+arm-none-eabi-gcc "C:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Utilities/JPEG/jpeg_utils.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Utilities/JPEG -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Utilities/jpeg_utils.d" -MT"Utilities/jpeg_utils.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Utilities/jpeg_utils.o"
+arm-none-eabi-gcc "C:/Users/b1601/Desktop/dsi/STM32CubeH7/Utilities/lcd/stm32_lcd.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Utilities/JPEG -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Utilities/stm32_lcd.d" -MT"Utilities/stm32_lcd.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Utilities/stm32_lcd.o"
+arm-none-eabi-gcc -mcpu=cortex-m7 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32h747bitx.d" -MT"Core/Startup/startup_stm32h747bitx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32h747bitx.o" "../Core/Startup/startup_stm32h747bitx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Utilities/JPEG -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Utilities/JPEG -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_hal_msp.d" -MT"Core/Src/stm32h7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Utilities/JPEG -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Utilities/JPEG -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Utilities/JPEG -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "C:/Users/b1601/Desktop/dsi/STM32CubeH7/Projects/STM32H747I-DISCO/Examples/LCD_DSI/Savas_S7/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DCORE_CM7 -DUSE_HAL_DRIVER -DSTM32H747xx -DUSE_PWR_DIRECT_SMPS_SUPPLY -c -I../Core/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include -IC:/Users/b1601/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Utilities/JPEG -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.d" -MT"Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.o"
+../Core/Src/main.c:53:21: error: non-static declaration of 'hdma2d' follows static declaration
+   53 | DMA2D_HandleTypeDef hdma2d;
+      |                     ^~~~~~
+../Core/Src/main.c:32:38: note: previous declaration of 'hdma2d' with type 'DMA2D_HandleTypeDef' {aka 'struct __DMA2D_HandleTypeDef'}
+   32 | static DMA2D_HandleTypeDef           hdma2d;
+      |                                      ^~~~~~
+../Core/Src/main.c:69:3: error: 'savas' undeclared here (not in a function)
+   69 |   savas,
+      |   ^~~~~
+../Core/Src/main.c:85:13: error: static declaration of 'Error_Handler' follows non-static declaration
+   85 | static void Error_Handler(void);
+      |             ^~~~~~~~~~~~~
+In file included from ../Core/Src/main.c:20:
+../Core/Inc/main.h:53:6: note: previous declaration of 'Error_Handler' with type 'void(void)'
+   53 | void Error_Handler(void);
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:136:3: warning: implicit declaration of function 'BSP_LED_Init' [-Wimplicit-function-declaration]
+  136 |   BSP_LED_Init(LED3);
+      |   ^~~~~~~~~~~~
+../Core/Src/main.c:136:16: error: 'LED3' undeclared (first use in this function)
+  136 |   BSP_LED_Init(LED3);
+      |                ^~~~
+../Core/Src/main.c:136:16: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:180:10: warning: implicit declaration of function 'BSP_LCD_Init' [-Wimplicit-function-declaration]
+  180 |       if(BSP_LCD_Init(0, LCD_ORIENTATION_LANDSCAPE) != BSP_ERROR_NONE)
+      |          ^~~~~~~~~~~~
+../Core/Src/main.c:180:26: error: 'LCD_ORIENTATION_LANDSCAPE' undeclared (first use in this function)
+  180 |       if(BSP_LCD_Init(0, LCD_ORIENTATION_LANDSCAPE) != BSP_ERROR_NONE)
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:180:56: error: 'BSP_ERROR_NONE' undeclared (first use in this function); did you mean 'FLASH_ERROR_NONE'?
+  180 |       if(BSP_LCD_Init(0, LCD_ORIENTATION_LANDSCAPE) != BSP_ERROR_NONE)
+      |                                                        ^~~~~~~~~~~~~~
+      |                                                        FLASH_ERROR_NONE
+../Core/Src/main.c:186:5: warning: implicit declaration of function 'UTIL_LCD_SetFuncDriver' [-Wimplicit-function-declaration]
+  186 |     UTIL_LCD_SetFuncDriver(&LCD_Driver);
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:186:29: error: 'LCD_Driver' undeclared (first use in this function)
+  186 |     UTIL_LCD_SetFuncDriver(&LCD_Driver);
+      |                             ^~~~~~~~~~
+../Core/Src/main.c:187:5: warning: implicit declaration of function 'UTIL_LCD_SetLayer' [-Wimplicit-function-declaration]
+  187 |     UTIL_LCD_SetLayer(0);
+      |     ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:190:5: warning: implicit declaration of function 'BSP_LCD_GetXSize' [-Wimplicit-function-declaration]
+  190 |     BSP_LCD_GetXSize(0, &LCD_X_Size);
+      |     ^~~~~~~~~~~~~~~~
+../Core/Src/main.c:192:5: warning: implicit declaration of function 'UTIL_LCD_Clear' [-Wimplicit-function-declaration]
+  192 |     UTIL_LCD_Clear(UTIL_LCD_COLOR_WHITE);
+      |     ^~~~~~~~~~~~~~
+../Core/Src/main.c:192:20: error: 'UTIL_LCD_COLOR_WHITE' undeclared (first use in this function)
+  192 |     UTIL_LCD_Clear(UTIL_LCD_COLOR_WHITE);
+      |                    ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:203:57: error: 'LCD_FRAME_BUFFER' undeclared (first use in this function); did you mean 'LTDC_COLOR_FRAME_BUFFER'?
+  203 |           CopyBuffer((uint32_t *)Images[1], (uint32_t *)LCD_FRAME_BUFFER,0, 120, 320, 240);
+      |                                                         ^~~~~~~~~~~~~~~~
+      |                                                         LTDC_COLOR_FRAME_BUFFER
+../Core/Src/main.c: In function 'LCD_BriefDisplay':
+../Core/Src/main.c:582:18: error: 'UTIL_LCD_COLOR_WHITE' undeclared (first use in this function)
+  582 |   UTIL_LCD_Clear(UTIL_LCD_COLOR_WHITE);
+      |                  ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:583:3: warning: implicit declaration of function 'UTIL_LCD_SetBackColor' [-Wimplicit-function-declaration]
+  583 |   UTIL_LCD_SetBackColor(UTIL_LCD_COLOR_BLUE);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:583:25: error: 'UTIL_LCD_COLOR_BLUE' undeclared (first use in this function)
+  583 |   UTIL_LCD_SetBackColor(UTIL_LCD_COLOR_BLUE);
+      |                         ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:584:3: warning: implicit declaration of function 'UTIL_LCD_SetTextColor' [-Wimplicit-function-declaration]
+  584 |   UTIL_LCD_SetTextColor(UTIL_LCD_COLOR_BLUE);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:585:3: warning: implicit declaration of function 'UTIL_LCD_FillRect' [-Wimplicit-function-declaration]
+  585 |   UTIL_LCD_FillRect(0, 0, LCD_X_Size, 112, UTIL_LCD_COLOR_BLUE);
+      |   ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:587:3: warning: implicit declaration of function 'UTIL_LCD_DisplayStringAt' [-Wimplicit-function-declaration]
+  587 |   UTIL_LCD_DisplayStringAt(0, LINE(2), (uint8_t *)"LCD_DSI_VideoMode_SingleBuffer", CENTER_MODE);
+      |   ^~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:587:31: warning: implicit declaration of function 'LINE' [-Wimplicit-function-declaration]
+  587 |   UTIL_LCD_DisplayStringAt(0, LINE(2), (uint8_t *)"LCD_DSI_VideoMode_SingleBuffer", CENTER_MODE);
+      |                               ^~~~
+../Core/Src/main.c:587:85: error: 'CENTER_MODE' undeclared (first use in this function); did you mean 'EXTI_MODE'?
+  587 |   UTIL_LCD_DisplayStringAt(0, LINE(2), (uint8_t *)"LCD_DSI_VideoMode_SingleBuffer", CENTER_MODE);
+      |                                                                                     ^~~~~~~~~~~
+      |                                                                                     EXTI_MODE
+../Core/Src/main.c:588:3: warning: implicit declaration of function 'UTIL_LCD_SetFont' [-Wimplicit-function-declaration]
+  588 |   UTIL_LCD_SetFont(&Font16);
+      |   ^~~~~~~~~~~~~~~~
+../Core/Src/main.c:588:21: error: 'Font16' undeclared (first use in this function)
+  588 |   UTIL_LCD_SetFont(&Font16);
+      |                     ^~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:580:13: warning: 'LCD_BriefDisplay' defined but not used [-Wunused-function]
+  580 | static void LCD_BriefDisplay(void)
+      |             ^~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:31: Core/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+14:34:38 Build Failed. 14 errors, 13 warnings. (took 2s.501ms)
+
